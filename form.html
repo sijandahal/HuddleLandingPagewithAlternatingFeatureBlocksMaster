@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Form For Logining In </title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <h1>Contact us </h1>
+
+    <div id="error"></div>
+ <form id ="form" onsubmit="return validation()" >
+
+      <div class="input-field">
+        <input type="text" name="Name" placeholder="Enter your name" id = "name">
+      </div>
+
+      <div class="input-field">
+      <input type="text" name="Subject" placeholder="Enter your Subject" id = "subject">
+    </div>
+
+    <div class="input-field">
+      <input type="text" name = "phone" placeholder = "Enter your Phone" id = "phone">
+    </div>
+
+    <div class="input-field">
+      <input type="text" name = "phone" placeholder="Enter your email" id = "email">
+    </div>
+
+    <div class="input-field">
+      <textarea id="message" placeholder="Message" ></textarea>
+    </div>
+
+    <div class="btn">
+      <input type="Submit">
+    </div>
+
+
+    </form>
+  </div>
+
+  <script src = "form.js"> </script>  
+</body>
+
+</html>
