@@ -425,16 +425,14 @@ width: 100%;
 /* Final section on description and button */
 
 .finalsection {
-  width: 700px;
-  margin-left: -80px;
+  margin-left: 60px;
   display: grid;
   align-items: center;
-  
- 
   }
 
 .finalwrapper {
-  left: -13px;
+  width: 100%;
+  left: -192px;
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -460,7 +458,11 @@ width: 100%;
 @media screen and (max-width:418px) {
 
   .wrapper-container {
-    padding: 26px 10px;
+    padding: 26px 25px;
+  }
+
+  .finalwrapper {
+    left: -166px;
   }
 .firstlogo {
   width: 100px;
@@ -481,8 +483,15 @@ width: 100%;
 }
 }
 
-@media screen  and (max-width:360px) { 
+@media screen  and (max-width:320px) { 
 .finalsection {
-  display: none;
+  display: block;
+}
+.wrapper-container {
+  padding: 26px 0px;
+}
+
+.finalwrapper {
+  left: -141px
 }
 }
